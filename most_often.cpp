@@ -39,8 +39,8 @@ void findAddress(){			//find IP address and the counts
     cout<<"Cannot find file \""<<fileName<<"\"!"<<endl;
   }
 }
-void printMostOften(){		//print to "most_often.log" file
-  string fileName =  "most_often.log";
+void printMostOften(){		//print to "IPv4_frequency.log" file
+  string fileName =  "IPv4_frequency.log";
   ofstream outputFile(fileName,ios::out);
   if(outputFile.is_open()){
     cout<<"File \""<<fileName<<"\" created successfully!"<<endl;
